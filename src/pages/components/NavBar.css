@@ -1,0 +1,23 @@
+.flexbox-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.button {
+  background-color: #443C68;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #635985;
+}
