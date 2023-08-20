@@ -34,6 +34,7 @@ const HomepageContext: React.FC<HomepageContextProps> = ({ children }) => {
             setUsers(data.users)
         } catch (err) {
             console.log("error fetching data:", err);
+            console.log(users)
         }
     };
 
