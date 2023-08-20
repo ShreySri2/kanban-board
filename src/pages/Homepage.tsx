@@ -11,14 +11,18 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
+      <div className='flexbox'>
       {groupedAndSortedTickets?.map(ticketGroup => (
-        <div key={ticketGroup.groupLabel}>
+        <div className='flexbox2 flexbox-item1' key={ticketGroup.groupLabel}>
           <h2>{ticketGroup.groupLabel}</h2>
           {ticketGroup.tickets.map((ticket, index) => (
+            <div className='flexbox-item2'>
             <Card key={index} ticket={ticket}/>
+            </div>
           ))}
         </div>
       ))}
+      </div>
     </div>
   );
 };

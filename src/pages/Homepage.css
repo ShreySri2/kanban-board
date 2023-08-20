@@ -1,3 +1,63 @@
+/* Homepage Styles */
+.flexbox {
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+  }
+  
+  .flexbox-item {
+    margin: 10px;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .card p {
+    margin: 8px 0;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Homepage Styles */
+  .homepage {
+    padding: 20px;
+  }
+  
 h2 {
     color: #635985;
 }
